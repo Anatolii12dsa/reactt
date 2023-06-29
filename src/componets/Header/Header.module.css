@@ -1,0 +1,130 @@
+a{
+    color: #274C5B;
+    text-decoration: none;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 69px 162px;
+    background-color: #FFF;
+    color: #274C5B;
+    font-family: Helvetica;
+}
+.header__section{
+    display: flex;
+    align-items: center;
+}
+.header__section2{
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+.header__item{
+    
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.header__cart{
+  display: flex;
+  align-items: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 33px;
+  padding: 5px;
+  
+}
+.cart{
+  margin-right: 23px;
+}
+.header__cartIcon{
+  margin-right: 12px;
+}
+.menu{
+  display: flex;
+  list-style-type: none;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+  
+}
+.header__itemLogo{
+  
+  font-size: 38px;;
+  left: 40px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 45px;
+}
+.header__Logo{
+width: 36.58px;
+margin-right: 9px;
+}
+.d7 {background: #FFF;}
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+  position: relative;
+}
+.d7 input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border-right: none;
+  border: 2px solid #324b4e;
+  background: #fafafa;
+  outline: none;
+  transition: .3s linear;
+}
+.d7 input:focus {
+  width: 300px;
+  
+}
+.d7 input::after{
+  content: "";
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  /* background-image: url(Search.svg); */
+  background-color: #7EB693;
+  
+}
+.d7 button {
+  width: 43px;
+  height: 43px;
+  background: #7EB693;
+  border: 1px solid #7EB693;
+  border-radius:50%;
+  right: 3px;
+  top: 2.5px;
+  position: absolute;
+  
+  
+}
+.menu .burger{
+  display: none;
+}
+@media only screen and (max-width: 360px){
+  .menu .header__item{
+    display: none;
+  }
+  .menu .burger{
+    display: block;
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+    
+  
+}
+@media (max-width: 440px){
+  .header__itemLogo{
+    font-size: 45px;
+  }
+}

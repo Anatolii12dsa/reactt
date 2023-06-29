@@ -1,2 +1,3 @@
 npx create-react-app .
 npm run start - запусскает проект создаёт локальный сервер  и запускает проект
+rafce 
