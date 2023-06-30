@@ -40,7 +40,7 @@ const Header = () => {
         <div className={styles.d7}>
         <form>
           <input type="text" placeholder="Search..."></input>
-          <button type="submit"><img src={search}/></button>
+          <button type="submit"><img className={styles.loop} src={search}/></button>
         </form>
         </div>
         <div className={styles.header__cart}>

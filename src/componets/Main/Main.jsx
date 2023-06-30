@@ -17,46 +17,49 @@ import nuts from './Nuts.svg';
 import fresh1 from './Fresh1.svg';
 import fresh2 from './Fresh2.svg';
 import orange1 from './Orange1.svg';
-import medImg from './medImg.png'
+// import medImg from './medImg.png'
 
 
 const Main = () => {
   return (
+    
     <div className={styles.main__conteiner}>
+      
       <div className={styles.content}>
         
           <div className={styles.main__content}>100% Natural Food</div>
           <div className={styles.main__content1}>Choose the best healthier way of life</div>
           <div className={styles.main__content__button1}>
-          <button className={styles.main__content__button}> Explore Now <img src={aerrow}/></button> 
-          
-        </div>  
+            <button className={styles.main__content__button}> Explore Now <img src={aerrow}/></button>    
+          </div>
+       
         
       </div>
       <div>
-      <img className={styles.banner} src={banner}/>
-      </div>
-      <div className={styles.banner1}>
+            <img className={styles.banner} src={banner}/>
+      </div>  
+      
+      {/* <div className={styles.banner1}>
       <img className={styles.banner11} src={medImg}/>
-      </div>
+      </div> */}
       <div className={styles.main__conteiner1}>
-        <img src={pict}/>
-        <img src={pict2}/>
+        <img className={styles.mainPict} src={pict}/>
+        <img className={styles.mainPict2} src={pict2}/>
       </div>
       <div className={styles.main__conteiner2}>
-        <div className={styles.main__content2}>About Us</div>
-        <div className={styles.main__content3}>We Believe in Working
+        <div className={styles.content2}>
+          <div className={styles.main__content2}>About Us</div>
+          <div className={styles.main__content3}>We Believe in Working
 Accredited Farmers</div>
-        <div className={styles.main__content4}>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
+          <div className={styles.main__content4}>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
 been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</div>
-        <div className={styles.main__content5}>Organic Foods Only</div>
-        <div className={styles.main__content6}>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</div>
-        <div className={styles.main__content7}>Quality Standards</div>
-        <div className={styles.main__content8}>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</div>
-        <div className={styles.main__icon}><img src={icon}/></div>
-        <div className={styles.main__icon1}><img src={icon1}/></div>
-        <div className={styles.main__content1__button1}>
-        <button className={styles.main__content1__button}> Shop Now <img src={aerrow}/></button> 
+          <div className={styles.main__content5}>Organic Foods Only</div>
+          <div className={styles.main__content6}>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</div>
+          <div className={styles.main__content7}>Quality Standards</div>
+          <div className={styles.main__content8}>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</div>
+          <div className={styles.main__content1__button1}>
+           <button className={styles.main__content1__button}> Shop Now <img src={aerrow}/></button> 
+          </div>
       </div>
         <img className={styles.main__orange1} src={orange}/>
       </div>

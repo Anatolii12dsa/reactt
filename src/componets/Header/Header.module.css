@@ -111,7 +111,7 @@ margin-right: 9px;
 .menu .burger{
   display: none;
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 1335px){
   .menu .header__item{
     display: none;
   }
@@ -123,8 +123,98 @@ margin-right: 9px;
     
   
 }
+@media (max-width: 930px){
+  .d7 input{
+    width: 150px;
+  }
+}
+@media (max-width: 827px){
+  .header{
+    padding: 40px 57px;
+  }
+}
+@media (max-width: 721px){
+.header__Logo img{
+  width: 70%;
+  height: 70%;
+  margin-right: 2px;
+}
+.header__itemLogo{
+  font-size: 70%;
+  left: 20px;
+}
+.menu .burger{
+  height: 70%;
+  width: 70%;
+}
+.d7 input{
+  width: 120px;
+}
+.header{
+  padding: 40px 97px;
+}
+}
+@media (max-width: 615px){
+  .header{
+    padding: 40px 67px 40px 13px;
+  }
+}
 @media (max-width: 440px){
   .header__itemLogo{
     font-size: 45px;
+  }
+  .header__itemLogo{
+    font-size: 50%;
+    left: 1px;
+  }
+  .header__Logo img{
+    width: 50%;
+    height: 50%;
+    margin-right: 1px;
+  }
+  .menu .burger{
+    padding-right: 10px;
+  }
+  .d7 input{
+    width: 100px;
+    height: 25px;
+  }
+  .d7 button{
+    width: 24px;
+    height: 24px;
+  }
+  .loop{
+    width: 65%;
+    height: 65%;
+  }
+  .d7 form{
+    margin-right: 10px;
+  }
+  
+}
+@media (max-width: 434px){
+  .header{
+    padding: 15px 67px 15px 13px; 
+  }
+  .header__Logo{
+    margin-right: -4px;
+  }
+  .menu{
+    margin-left: -27px
+  }
+  .menu .burger img{
+    width: 110%;
+    
+  }
+  .header__cart{
+    height: 37%;
+    border: 0px;
+
+  }
+  .cart{
+    display: none;
+  }
+  .header__cartIcon img{
+    height: 27px;
   }
 }
