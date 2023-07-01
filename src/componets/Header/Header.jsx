@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./Header.module.css";
 import logo from "./Logo.svg";
 import search from "./Search.svg";
 import cart from "./CartIcon.svg";
 import menu from "./menu.svg";
+import menu1 from "./menu1.svg";
 
 
 
 const Header = () => {
+  const[nav, setNav] = useState(false);
   return (
       
     
@@ -20,7 +22,7 @@ const Header = () => {
           <div className={styles.header__itemLogo}> 
             Organick
           </div>
-          <ul className={styles.menu}>
+          <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu  ]}>
           <li className={styles.header__item}><a href="#">
             Home</a></li>
             <li className={styles.header__item}><a href="#">
@@ -33,7 +35,7 @@ const Header = () => {
             Projects</a></li>
             <li className={styles.header__item}><a href="#">
             News</a></li>
-            <li className={styles.burger}><img src={menu}/></li>
+            
             </ul>
         </div>
         <div className={styles.header__section2}>
@@ -47,9 +49,26 @@ const Header = () => {
           <div className={styles.header__cartIcon}><img src={cart}/></div>
           <div className={styles.cart}>cart (0) </div>
         </div>   
+        {/* <button className={styles.burger}> */}
+        <div onClick={() => setNav(!nav)} className={styles.burger}>
+        {nav ? <img src={menu1}/> : <img src={menu}/>}
         </div>
+        {/* <div className={styles.burger_close}>
+        </div> */}
+        {/* </button> */}
+        {/* <nav className={styles.menu1}>
+          <ul>Home</ul>
+          <ul>About</ul>
+          <ul>Pages</ul>
+          <ul>Shop</ul>
+        </nav> */}
+        {/* <div className={styles.burger}><img src={menu}/></div> */}
+        </div>
+       
+        
 
       </div>
+      
     
   )
 };
