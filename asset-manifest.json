@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactt/static/css/main.400e98d6.css",
+    "main.css": "/reactt/static/css/main.e631913e.css",
     "main.js": "/reactt/static/js/main.5ae1202a.js",
     "static/media/Orange1.svg": "/reactt/static/media/Orange1.70ee1a6bb688cc388a88f4d342d55b25.svg",
     "static/media/GroupOrange.png": "/reactt/static/media/GroupOrange.9a3516f14512f1cc1153.png",
@@ -29,11 +29,11 @@
     "static/media/menu1.svg": "/reactt/static/media/menu1.f690b1f7463f6c19fa65fd512c0e23f7.svg",
     "static/media/menu.svg": "/reactt/static/media/menu.18f72a57d9ffbba06b6034ef5d6c5fd3.svg",
     "static/media/Aerrow.svg": "/reactt/static/media/Aerrow.c263a8774c86ae058fd599c7ada192ab.svg",
-    "main.400e98d6.css.map": "/reactt/static/css/main.400e98d6.css.map",
+    "main.e631913e.css.map": "/reactt/static/css/main.e631913e.css.map",
     "main.5ae1202a.js.map": "/reactt/static/js/main.5ae1202a.js.map"
   },
   "entrypoints": [
-    "static/css/main.400e98d6.css",
+    "static/css/main.e631913e.css",
     "static/js/main.5ae1202a.js"
   ]
 }
